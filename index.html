@@ -2,56 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    
+    <link rel="stylesheet" href="style.css">
     <title>Landing page</title>
 </head>
 <body>
     <header class="header">
-        <a href="#">Header Logo</a>
-        <a href="#" class="nav-links">header link 1</a>
-        <a href="#" class="nav-links">header link 2</a>
-        <a href="#" class="nav-links">header link 3</a>
+        <h1 class="logo">Header Logo</h1>
+        <ol>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact</a></li>
+        </ol>
     </header>
     <section class="main">
         <div class="left">
         <h1 class="title">This website is awesome</h1>
-        <p class="main">This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast.</p>
+        <p class="main-text">This website has some subtext that goes here under the main title. It's smaller font and the color is lower contrast.</p>
         <button>Sign up</button>
     </div>
      <div class="right">
-        <img src="images/Frs.jpg" alt="Image of a FRS">
+        <img src="images/gtr.jpg" alt="Image of a FRS">
      </div>
     </section>
     <section class="Sect-1">
       <h2 class="info">Some random information</h2>
       <div class="gallery">
-        <div class="picAndBlurb">
-            <img src="https://placehold.co/600x400" alt="" class="roundedPic"/>
-            <p class="blub">This is some subtext under an image</p>
+        <div class="block">
+            <div class="icon"></div>
+            <p class="block-info">This is some subtext under an image</p>
         </div>
-        <div class="picAndBlurb">
-            <img src="https://placehold.co/600x400" alt="" class="roundedPic"/>
-            <p class="blub">This is some subtext under an image</p>
+        <div class="block">
+            <div class="icon"></div>           
+             <p class="block-info">This is some subtext under an image</p>
         </div>
-        <div class="picAndBlurb">
-            <img src="https://placehold.co/600x400" alt="" class="roundedPic"/>
-            <p class="blub">This is some subtext under an image</p>
+        <div class="block">
+            <div class="icon"></div>
+            <p class="block-info">This is some subtext under an image</p>
         </div>
-        <div class="picAndBlurb">
-            <img src="https://placehold.co/600x400" alt="" class="roundedPic"/>
-            <p class="blub">This is some subtext under an image</p>
+        <div class="block">
+            <div class="icon"></div>
+            <p class="block-info">This is some subtext under an image</p>
         </div>
       </div>
     </section>
-    <section class="quote">
-        <p class="quote2">The way to get started is to quit talking and begin doing.</p>
+
+    <section class="body-quote">
+        <div class="quote-block">
+        <p class="quote">The way to get started is to quit talking and begin doing.</p>
         <p class="author">-Walt Disney</p>
+    </div>
     </section>
     <section class="last-part">
+        <div class="cta-block">
         <div class="CTA">
-            <h3>Call to action! It's time!</h3>
-            <p class="sub-header">Sign up for our product by clicking that button right over there</p>
+            <h3 class="cta-title">Call to action! It's time!</h3>
+            <p class="cta-text">Sign up for our product by clicking that button right over there</p>
         </div>
+        <button>Sign up</button>
+        </div>  
+        
     </section>
     <footer>
         <p class="footer2">Copyright 2024 - David Castillo</p>
